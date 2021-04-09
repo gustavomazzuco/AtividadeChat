@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Helvetica;
+    font-size: 16px;
+}
+
+#page{
+    width: 35%;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+header{
+    border-bottom: 2px solid #000;
+    font-family: Freestyle Script;
+    font-size: 25px;
+    padding: 10px;
+}
+
+h2{
+    color: blue;
+}
+
+#chat{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    padding-top: 15%;
+    padding-bottom: 10%;
+    background: url('fundo.png');
+    max-height: 350px;
+    overflow: auto;
+}
+
+.msg1{
+    margin-right: 40%;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    background-color: #fff;
+}
+
+.msg2{
+    margin-left: 40%;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    background-color: #DCF8C6;
+}
+
+.tit1{
+    margin-right: 60%;
+    margin-bottom: 5px;
+}
+
+.tit2{
+    text-align: right;
+    margin-bottom: 5px;
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid black;
+    padding: 10px;
+}
+
+input{
+    display: block;
+    font-size: 25px;
+    font-family: Freestyle Script;
+    padding: 8px 6px;
+    width: 75%;
+    border: 1px solid;
+    border-radius: 4px;
+    height: 35px;
+}
+
+button{
+    width: 23%;
+    height: 35px;
+    color: green;
+}
